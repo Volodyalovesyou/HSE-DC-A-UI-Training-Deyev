@@ -1,0 +1,9 @@
+.O_TopBarWrapper {
+  position: fixed;
+
+  /* top: 0px; */
+  width: 1140px;
+  height: 160px;
+  box-sizing: border-box;
+  overflow: hidden;
+}

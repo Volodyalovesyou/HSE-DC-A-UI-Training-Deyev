@@ -1,0 +1,10 @@
+.O_TopBarWrapper .O_SearchBar {
+  position: relative;
+  top: 80px;
+  /* left: 301px; */
+  width: 1140px;
+  height: 80px;
+  border: solid 1px black;
+  box-sizing: border-box;
+  background-color: lightgreen;
+}

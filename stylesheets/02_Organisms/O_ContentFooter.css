@@ -1,0 +1,11 @@
+.O_ContentWrapper .O_ContentFooter {
+  position: fixed;
+  bottom: 0px;
+  /* left: 300px; */
+
+  width: 1140px;
+  height: 80px;
+  /* background-color: lightgreen; */
+  border: solid 1px black;
+  box-sizing: border-box;
+}

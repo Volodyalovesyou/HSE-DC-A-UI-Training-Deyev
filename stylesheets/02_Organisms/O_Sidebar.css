@@ -1,0 +1,7 @@
+.T_SinglePageUI .O_Sidebar {
+  position: fixed;
+  width: 300px;
+  height: 800px;
+  border: solid 1px black;
+  box-sizing: border-box;
+}

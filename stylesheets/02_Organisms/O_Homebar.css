@@ -1,0 +1,10 @@
+.O_Sidebar .O_Homebar {
+  position: fixed;
+  /* top: 0px;
+  left: 0px; */
+  width: 300px;
+  height: 80px;
+  /* background-color: pink; */
+  border: solid 1px black;
+  box-sizing: border-box;
+}

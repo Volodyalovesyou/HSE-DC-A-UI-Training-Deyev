@@ -1,0 +1,12 @@
+.O_Sidebar .O_Menu {
+  position: relative;
+  top: 80px;
+  /* left: 0px; */
+
+  overflow: scroll;
+  width: 300px;
+  height: 556px;
+  /* background-color: lightyellow; */
+  border: solid 1px black;
+  box-sizing: border-box;
+}
