@@ -1,11 +1,16 @@
-.O_Sidebar .O_SidebarFooter {
-  position: fixed;
+.O_SidebarFooter {
+  width: 100%;
+  flex: 0 0 70px;
+  border-top: 1px solid #e6e6e6;
+
+
+
+  /* position: fixed;
   bottom: 0px;
   left: 0px;
 
   width: 300px;
   height: 80px;
   border: solid 1px black;
-  box-sizing: border-box;
-  /* background-color: lightblue; */
+  box-sizing: border-box; */
 }

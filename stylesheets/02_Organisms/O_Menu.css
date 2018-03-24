@@ -1,12 +1,21 @@
-.O_Sidebar .O_Menu {
-  position: relative;
-  top: 80px;
-  /* left: 0px; */
+.O_Menu {
+  height: calc(100% - 80px - 70px);
+  overflow: hidden;
 
+  /* position: relative;
+  top: 80px;
   overflow: scroll;
   width: 300px;
   height: 556px;
-  /* background-color: lightyellow; */
   border: solid 1px black;
+  box-sizing: border-box; */
+}
+
+.O_Menu .scrollable {
+  position: relative;
   box-sizing: border-box;
+  width: 320px;
+  height: 100%;
+  padding-right: 20px;
+  overflow-y: scroll;
 }

@@ -1,9 +1,16 @@
 .O_TopBarWrapper {
   position: fixed;
+  width: calc(100% - 300px);
+  background-color: white;
+  z-index: 10;
 
-  /* top: 0px; */
+
+
+
+  /* position: fixed;
+
   width: 1140px;
   height: 160px;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: hidden; */
 }
