@@ -1,15 +1,42 @@
 .O_MenuBar {
   height: 80px;
   border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.O_MenuBar .left {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 38px;
+}
 
+.O_MenuBar a {
+  padding: 30px;
 
+  text-decoration: none;
+}
 
+.O_MenuBar a:hover {
+  background-color: #f5f5f5;
+  color: inherit;
+  border-bottom: 2px solid #e6e6e6;
+}
 
-  /* position: fixed;
-  width: 1140px;
-  height: 80px;
-  border: solid 1px black;
-  box-sizing: border-box; */
+.O_MenuBar a:visited {
+  color: inherit;
+}
 
+.O_MenuBar a:active {
+  box-sizing: border-box;
+  background-color: inherit;
+  border-bottom: 2px solid #1683fb;
+  color: #1683fb;
+}
+
+.O_MenuBar .right a {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-right: 146px;
 }
