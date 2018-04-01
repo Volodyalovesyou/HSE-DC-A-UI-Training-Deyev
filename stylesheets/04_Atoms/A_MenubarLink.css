@@ -1,0 +1,43 @@
+.A_MenubarLink {
+  position: relative;
+  display: block;
+  line-height: 80px;
+  padding: 0 30px;
+  font-family: var(--OpenSans);
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--black);
+}
+
+.A_MenubarLink:hover {
+  background-color: var(--bg-gray);
+}
+
+.A_MenubarLink:hover::after,
+.A_MenubarLink.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.A_MenubarLink:hover::after {
+  bottom: 0;
+  height: 1px;
+  background-color: var(--gray);
+}
+
+.A_MenubarLink.active,
+.A_MenubarLink.active:hover {
+  color: var(--primary);
+  font-weight: 400;
+  cursor: default;
+  background-color: transparent;
+}
+
+.A_MenubarLink.active::after {
+  bottom: -1px;
+  height: 2px;
+  background-color: var(--primary);
+}

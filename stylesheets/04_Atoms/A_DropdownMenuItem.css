@@ -1,0 +1,10 @@
+.A_DropdownMenuItem {
+  display: block;
+  line-height: 40px;
+  padding: 0 20px;
+  white-space: nowrap;
+}
+
+.A_DropdownMenuItem:hover {
+  background-color: var(--bg-gray);
+}

@@ -1,6 +1,6 @@
 .O_Homebar {
   width: 100%;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid var(--gray);
   flex: 0 0 80px;
 
 

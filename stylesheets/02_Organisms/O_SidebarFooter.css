@@ -1,7 +1,7 @@
 .O_SidebarFooter {
   width: 100%;
   flex: 0 0 70px;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid var(--gray);
 
 
 
