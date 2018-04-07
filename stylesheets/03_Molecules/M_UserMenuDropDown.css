@@ -25,3 +25,30 @@
 .O_UserMenu:hover .M_UserMenuDropDown {
   display: block;
 }
+
+.M_UserMenuDropDown::after,
+.M_UserMenuDropDown::before {
+  display: block;
+  bottom: 100%;
+  left: 67%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.M_UserMenuDropDown::after {
+  border-color: transparent;
+  border-bottom-color: white;
+  border-width: 8px;
+  margin-left: 34px;
+}
+
+.M_UserMenuDropDown::before {
+  border-color: white;
+  border-bottom-color: var(--gray);
+  border-width: 10px;
+  margin-left: 32px;
+}

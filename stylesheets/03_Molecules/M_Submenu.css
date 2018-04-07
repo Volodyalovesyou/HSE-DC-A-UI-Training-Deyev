@@ -1,0 +1,7 @@
+.O_MenuItem.active .M_Submenu {
+  display: block;
+}
+
+.M_Submenu {
+  display: none;
+}

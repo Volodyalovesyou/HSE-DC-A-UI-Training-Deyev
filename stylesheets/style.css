@@ -1,7 +1,7 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=cyrillic');
 
-@import "layout.css";
+@import "base.css";
 
 @import "00_Templates/T_SinglePageUI.css";
 
@@ -16,9 +16,13 @@
 @import "02_Organisms/O_Content.css";
 @import "02_Organisms/O_ContentFooter.css";
 @import "02_Organisms/O_UserMenu.css";
+@import "02_Organisms/O_MenuItem.css";
 
 @import "03_Molecules/M_UserMenuDropDown.css";
+@import "03_Molecules/M_Submenu.css";
 
 @import "04_Atoms/A_UserIcon.css";
 @import "04_Atoms/A_MenubarLink.css";
 @import "04_Atoms/A_DropdownMenuItem.css";
+@import "04_Atoms/A_MenuItemButton.css";
+@import "04_Atoms/A_SubmenuItem.css";
