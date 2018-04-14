@@ -1,0 +1,32 @@
+.O_MenuItem.active .A_ActionButton span {
+  font-weight: 400;
+}
+
+.O_SidebarFooter.active .A_ActionButton .icon {
+  color: var(--primary);
+}
+
+.A_ActionButton {
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+  color: var(--text-gray);
+}
+
+.A_ActionButton:hover {
+  background-color: var(--bg-gray);
+}
+
+.A_ActionButton span {
+  font-family: var(--OpenSans);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.A_ActionButton .icon {
+  width: 20px;
+  margin-left: 32px;
+  margin-right: 26px;
+}

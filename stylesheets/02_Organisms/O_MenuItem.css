@@ -1,3 +1,11 @@
-.O_MenuItem {
-  
+/* .O_MenuItem.active {
+  border-top: 1px solid var(--gray);
+  border-bottom: 1px solid var(--gray);
+} */
+
+.O_MenuItem.active:not(:first-child) {
+  border-top: 1px solid var(--gray);
+}
+.O_MenuItem.active:not(:last-child) {
+  border-bottom: 1px solid var(--gray);
 }

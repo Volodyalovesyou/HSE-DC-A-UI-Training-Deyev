@@ -1,14 +1,6 @@
 .O_Menu {
   height: calc(100% - 80px - 70px);
   overflow: hidden;
-
-  /* position: relative;
-  top: 80px;
-  overflow: scroll;
-  width: 300px;
-  height: 556px;
-  border: solid 1px black;
-  box-sizing: border-box; */
 }
 
 .O_Menu .scrollable {
@@ -16,16 +8,13 @@
   box-sizing: border-box;
   width: 320px;
   height: 100%;
-  padding-right: 20px;
   overflow-y: scroll;
 }
 
-.action {
-  border-top: 1px solid var(--gray);
-  /* position: relative;
-  box-sizing: border-box;
-  width: 320px;
-  height: 100%;
-  padding-right: 20px;
-  overflow-y: visible; */
+.O_Menu .scrollable > div {
+      padding: 10px 20px 10px 0;
+}
+
+.O_Menu .scrollable > div:not(:last-child) {
+    border-bottom: 1px solid var(--gray);
 }
