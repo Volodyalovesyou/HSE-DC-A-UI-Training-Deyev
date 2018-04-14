@@ -8,6 +8,5 @@ $(function() {
       $(".O_MenuItem").removeClass ("active");
       container.addClass("active");
     }
-
   });
 });

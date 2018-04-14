@@ -1,8 +1,22 @@
-.O_MenuItem.active .A_MenuItemButton span {
-    font-weight: 400;
+.O_MenuItem.active .A_MenuItemButton span,
+.O_SidebarFooter.active .A_MenuItemButton span {
+  font-weight: 400;
 }
 
 .O_MenuItem.active .A_MenuItemButton .icon {
+  color: var(--primary);
+}
+
+.O_SidebarFooter .A_MenuItemButton {
+  height: 70px;
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+  color: var(--text-gray);
+}
+
+.O_SidebarFooter.active .A_MenuItemButton .icon {
   color: var(--primary);
 }
 
