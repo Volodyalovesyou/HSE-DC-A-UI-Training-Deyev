@@ -30,3 +30,26 @@
   margin-left: 32px;
   margin-right: 26px;
 }
+
+.A_ActionButton .icon {
+  flex-shrink: 0;
+  width: 20px;
+  margin-left: 32px;
+  margin-right: 26px;
+}
+
+.A_ActionButton#sidebarToggle .icon .fa-forward {
+  display: none;
+}
+
+.T_SinglePageUI.compact .O_Sidebar .A_ActionButton .icon {
+  margin: 0 30px;
+}
+
+.T_SinglePageUI.compact .O_Sidebar .A_ActionButton#sidebarToggle .icon .fa-forward {
+  display: inline;
+}
+
+.T_SinglePageUI.compact .O_Sidebar .A_ActionButton#sidebarToggle .icon .fa-backward {
+  display: none;
+}

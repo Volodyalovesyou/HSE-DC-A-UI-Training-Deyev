@@ -9,13 +9,8 @@
   background-color: white;
   border-right: 1px solid var(--gray);
   z-index: 100;
+}
 
-
-
-  /* position: fixed;___________МОЙ КОД_________
-  width: 300px;
-  height: 800px;
-  border: solid 1px black;
-  box-sizing: border-box;
-  overflow: hidden; */
+.T_SinglePageUI.compact .O_Sidebar {
+  width: 81px;
 }

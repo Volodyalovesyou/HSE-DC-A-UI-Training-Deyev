@@ -12,8 +12,6 @@ $(function() {
 
     let item = subItems[0];
 
-
-
     let height = 0;
 
     if (item) {
@@ -37,4 +35,11 @@ $(function() {
       container.find(".M_Submenu").height(height);
     }
   });
+
+  $("#sidebarToggle").click(function(e) {
+    e.preventDefault()
+    $(e.target).toggleClass ("compact")
+    $(".T_SinglePageUI").toggleClass("compact")
+  })
+
 });

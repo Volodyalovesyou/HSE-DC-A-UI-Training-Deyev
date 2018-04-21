@@ -6,12 +6,4 @@
   background-color: white;
   border-top: 1px solid var(--gray);
   z-index: 10;
-
-  /* position: fixed;
-  bottom: 0px;
-
-  width: 1140px;
-  height: 80px;
-  border: solid 1px black;
-  box-sizing: border-box; */
 }

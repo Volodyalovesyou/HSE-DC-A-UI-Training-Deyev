@@ -1,16 +1,8 @@
 .O_SidebarFooter {
   width: 100%;
-  flex: 0 0 70px;
+  padding: 10px 0;
+  flex: 0 0 50px;
+  overflow: hidden;
   border-top: 1px solid var(--gray);
-
-
-
-  /* position: fixed;
-  bottom: 0px;
-  left: 0px;
-
-  width: 300px;
-  height: 80px;
-  border: solid 1px black;
-  box-sizing: border-box; */
+  z-index: 10;
 }
