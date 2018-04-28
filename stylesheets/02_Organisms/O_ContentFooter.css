@@ -1,9 +1,17 @@
-.O_ContentWrapper .O_ContentFooter {
+.O_ContentFooter {
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
   bottom: 0;
-  width: calc(100% - 300px);
+  width: calc(100% - var(--full-sidebar-width));
   height: 70px;
   background-color: white;
   border-top: 1px solid var(--gray);
   z-index: 10;
+}
+
+.T_SinglePageUI.compact .O_ContentFooter {
+  width: calc(100% - var(--compact-sidebar-width));
 }

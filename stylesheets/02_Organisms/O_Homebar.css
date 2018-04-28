@@ -2,13 +2,4 @@
   width: 100%;
   border-bottom: 1px solid var(--gray);
   flex: 0 0 80px;
-
-
-
-
-  /* position: fixed;
-  width: 300px;
-  height: 80px;
-  border: solid 1px black;
-  box-sizing: border-box; */
 }

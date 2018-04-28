@@ -9,6 +9,8 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="javascripts/jquery-3.3.1.min.js" charset="utf-8"></script>
     <script src="javascripts/O_MenuItem.js" charset="utf-8"></script>
+    <script src="javascripts/O_Pagination.js" charset="utf-8"></script>
+
   </head>
   <body>
     <div class="T_SinglePageUI">
@@ -181,7 +183,33 @@
 
         <div class="O_Content"></div>
 
-        <footer class="O_ContentFooter"></footer>
+        <footer class="O_ContentFooter">
+          <div class="O_Pagination">
+            <a href="#" class="A_PaginationButton arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </a>
+
+            <div class="M_PaginationPages">
+              <a href="#" class="A_PaginationButton page">1</a>
+
+              <div class="A_PaginationButton ellipsis">...</div>
+
+              <a href="#" class="A_PaginationButton page">99</a>
+              <a href="#" class="A_PaginationButton page active">100</a>
+              <a href="#" class="A_PaginationButton page">101</a>
+
+              <div class="A_PaginationButton ellipsis">...</div>
+
+              <a href="#" class="A_PaginationButton page">1221</a>
+            </div>
+
+            <a href="#" class="A_PaginationButton arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </a>
+
+
+          </div>
+        </footer>
       </div>
     </div>
   </body>

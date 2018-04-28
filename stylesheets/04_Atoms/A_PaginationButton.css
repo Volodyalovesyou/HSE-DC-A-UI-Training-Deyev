@@ -1,0 +1,30 @@
+.A_PaginationButton {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  font-family: var(--OpenSans);
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--black);
+  border: 1px solid var(--gray);
+  z-index: 0;
+}
+
+.M_PaginationPages .A_PaginationButton:not(:first-child) {
+  margin-left: -1px;
+}
+
+a.A_PaginationButton:hover,
+a.A_PaginationButton.active {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  font-weight: 400;
+  z-index: 1;
+}
+
+.A_PaginationButton.arrow {
+  color: var(--text-gray);
+}

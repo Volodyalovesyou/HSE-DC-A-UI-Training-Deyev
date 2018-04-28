@@ -1,11 +1,12 @@
 :root {
+  --full-sidebar-width: 300px;
+  --compact-sidebar-width: 81px;
   --OpenSans: 'Open Sans', sans-serif;
   --black: #333;
   --primary: #0080ff;
   --bg-gray: #f5f5f5;
   --gray: #e6e6e6;
   --text-gray: #666666;
-
 }
 
 html, body {
