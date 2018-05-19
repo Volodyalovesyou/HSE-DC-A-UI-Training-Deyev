@@ -5,7 +5,6 @@
 
 .O_Menu .scrollable {
   position: relative;
-  box-sizing: border-box;
   width: 320px;
   height: 100%;
   overflow-y: scroll;

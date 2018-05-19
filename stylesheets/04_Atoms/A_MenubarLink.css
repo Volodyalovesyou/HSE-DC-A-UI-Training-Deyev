@@ -3,6 +3,7 @@
   display: block;
   line-height: 80px;
   padding: 0 30px;
+  white-space: nowrap;
   font-family: var(--OpenSans);
   font-size: 14px;
   font-weight: 300;

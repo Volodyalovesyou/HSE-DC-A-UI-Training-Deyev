@@ -1,0 +1,17 @@
+.M_PerPageDropdown {
+  display: none;
+}
+
+.O_PerPageMenu.open .M_PerPageDropdown {
+  display: block;
+  position: absolute;
+  bottom: 41px;
+  right: -15px;
+  min-width: 224px;
+  padding: 10px 0;
+  border: 1px solid var(--gray);
+  background-color: white;
+  font-family: var(--OpenSans);
+  font-size: 14px;
+  font-weight: 300;
+}

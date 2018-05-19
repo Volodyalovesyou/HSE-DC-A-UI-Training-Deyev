@@ -1,0 +1,15 @@
+.A_PerPageButton {
+  cursor: pointer;
+  font-family: var(--OpenSans);
+  font-size: 12px;
+  color: var(--text-gray);
+}
+
+.A_PerPageButton svg {
+  margin-right: 3px;
+}
+
+.O_PerPageMenu.open .A_PerPageButton,
+.A_PerPageButton:hover{
+  color: var(--primary);
+}

@@ -1,7 +1,6 @@
 .O_Sidebar {
   position: fixed;
   display: flex;
-  box-sizing: border-box;
   flex-direction: column;
 
   width: var(--full-sidebar-width);

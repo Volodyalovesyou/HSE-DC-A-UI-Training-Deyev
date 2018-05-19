@@ -8,3 +8,8 @@
 .A_DropdownMenuItem:hover {
   background-color: var(--bg-gray);
 }
+
+.A_DropdownMenuItem.active {
+  font-weight: 400;
+  color: var(--text-gray);
+}

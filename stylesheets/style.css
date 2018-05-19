@@ -18,10 +18,12 @@
 @import "02_Organisms/O_UserMenu.css";
 @import "02_Organisms/O_MenuItem.css";
 @import "02_Organisms/O_Pagination.css";
+@import "02_Organisms/O_PerPageMenu.css";
 
 @import "03_Molecules/M_UserMenuDropDown.css";
 @import "03_Molecules/M_Submenu.css";
 @import "03_Molecules/M_PaginationPages.css";
+@import "03_Molecules/M_PerPageDropdown.css";
 
 @import "04_Atoms/A_UserIcon.css";
 @import "04_Atoms/A_MenubarLink.css";
@@ -30,3 +32,4 @@
 @import "04_Atoms/A_SubmenuItem.css";
 @import "04_Atoms/A_ActionButton.css";
 @import "04_Atoms/A_PaginationButton.css";
+@import "04_Atoms/A_PerPageButton.css";

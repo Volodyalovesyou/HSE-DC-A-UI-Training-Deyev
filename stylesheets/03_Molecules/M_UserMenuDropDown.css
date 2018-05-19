@@ -1,7 +1,7 @@
 .M_UserMenuDropDown {
   position: absolute;
   display: none;
-  top: 80px;
+  top: 79px;
   right: 25px;
   min-width: 224px;
 
@@ -10,7 +10,6 @@
   font-family: var(--OpenSans);
   font-size: 14px;
   font-weight: 300;
-
 }
 
 .M_UserMenuDropDown .top,
